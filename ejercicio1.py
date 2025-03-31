@@ -1,4 +1,10 @@
-# Autor:
+__Author__="Asier Marin Saez"
 
 # Imprime Hola mundo por pantalla
-# Escrube en pantalla Hola muddo
+
+def hola_mundo():
+    print("Hola mundo")
+
+# Escribe en pantalla Hola mundo
+
+hola_mundo()
