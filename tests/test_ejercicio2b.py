@@ -7,6 +7,6 @@ import os, sys
 import ejercicio2b
 
 def test_esMayorEdad():
-    assert ejercicio2b.esMayorEdad(5) == False
-    assert ejercicio2b.esMayorEdad(18) == True
-    assert ejercicio2b.esMayorEdad(21) == True
+    assert ejercicio2b.mayor_edad(5) == False
+    assert ejercicio2b.mayor_edad(18) == True
+    assert ejercicio2b.mayor_edad(21) == True
