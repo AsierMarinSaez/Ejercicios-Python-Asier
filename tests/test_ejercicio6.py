@@ -8,7 +8,8 @@ import random
 import ejercicio6 as t
 
 def test_esPrimo():
-    assert t.esPrimo(1) == True
+    assert t.esPrimo(0) == False
+    assert t.esPrimo(1) == False
     assert t.esPrimo(2) == True
     assert t.esPrimo(3) == True
     assert t.esPrimo(4) == False
